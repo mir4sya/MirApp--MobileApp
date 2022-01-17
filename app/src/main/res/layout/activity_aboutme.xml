@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/wallpaperme"
+    tools:context=".Aboutme">
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="156dp"
+      android:layout_height="153dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/icon"
+      tools:layout_editor_absoluteX="127dp"
+      tools:layout_editor_absoluteY="26dp" />
+
+  <TextView
+      android:id="@+id/Name"
+      android:layout_width="151dp"
+      android:layout_height="52dp"
+      android:text="Nuramirah Hasya binti Mohd Nizam"
+      android:textColor="@color/black"
+      android:textSize="17dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.938"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.201" />
+
+  <TextView
+      android:id="@+id/Degree"
+      android:layout_width="320dp"
+      android:layout_height="45dp"
+      android:text="Bachelor of Computer Science (Hons) Multimedia Computing"
+      android:textColor="@color/black"
+      android:textSize="15dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.824"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.412" />
+
+  <TextView
+      android:id="@+id/nickname"
+      android:layout_width="320dp"
+      android:layout_height="45dp"
+      android:text="*  Nickname : mira or mirasya"
+      android:textColor="@color/white"
+      android:textSize="15dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.626"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.588" />
+
+  <TextView
+      android:id="@+id/email"
+      android:layout_width="320dp"
+      android:layout_height="45dp"
+      android:text="*  Email : mirasya72@gmail.com"
+      android:textColor="@color/white"
+      android:textSize="15dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.604"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.651" />
+
+  <TextView
+      android:id="@+id/address"
+      android:layout_width="320dp"
+      android:layout_height="45dp"
+      android:text="*  Address : Sepang, Selangor"
+      android:textColor="@color/white"
+      android:textSize="15dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.604"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.772" />
+
+  <TextView
+      android:id="@+id/linked"
+      android:layout_width="320dp"
+      android:layout_height="45dp"
+      android:text="*  Linked In : Amirah Hasya"
+      android:textColor="@color/white"
+      android:textSize="15dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.604"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.712" />
+
+  <TextView
+      android:id="@+id/notel"
+      android:layout_width="320dp"
+      android:layout_height="45dp"
+      android:text="*  Tel no : 019-3477983"
+      android:textColor="@color/white"
+      android:textSize="15dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.582"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.841" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
